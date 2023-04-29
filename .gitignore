@@ -1,0 +1,38 @@
+.vscode
+.idea
+
+## OSX
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
+
+# Thumbnails
+._*
+
+## Linux
+*~
+
+## Windows
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+.env
+node_modules/
+nats.pid
+
+.nyc_output/
+
+# production
+/build
+/dist
+/out/**
